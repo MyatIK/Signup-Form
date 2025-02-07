@@ -1,6 +1,10 @@
 import Input from "./components/Input"
+import { useState } from "react"
 
 function App() {
+
+  const[user,setUser]=useState('');
+  const[pwd,setpwd]=useState();
   
 
   return (
