@@ -1,4 +1,4 @@
-
+import { forwardRef } from "react"
 
 function Input({placeholder, id, label, type}){
     return(
